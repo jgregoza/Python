@@ -1,7 +1,7 @@
 #lista que almacene credenciales posibles
 
 registeredUser = ('jgregoza', 'jzamora', 'gregoza')
-registeredPwd = ('Real2021*', '123')
+registeredPwd = ('123*', 'r123*')
 
 #declaracion de la funcion
 
