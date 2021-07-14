@@ -1,0 +1,25 @@
+#lista que almacene credenciales posibles
+
+registeredUser = ('jgregoza', 'jzamora', 'gregoza')
+registeredPwd = ('Real2021*', '123')
+
+#declaracion de la funcion
+
+def login(user, password):
+    if user in registeredUser:
+        if password in registeredPwd:
+            return 1
+        else:
+            print("Contraseña Incorrecta")
+    else:
+        return 2
+
+#control de flujo
+
+user = input("Ingrese User: ")
+password = input("Ingrese Pass: ")
+
+if login(user, password) ==1:
+    print("Welcome")
+else:
+    print("Error! User no registered.")
